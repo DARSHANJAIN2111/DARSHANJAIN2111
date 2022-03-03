@@ -1,0 +1,7 @@
+#!/bin/bash
+Echo "enter the number to be converted:"
+feet=$(($number*12))
+inches=$(($number/12))
+Echo "feet conversion to inches:"$feet
+Echo "inches conversion to feet;"$inches
+
